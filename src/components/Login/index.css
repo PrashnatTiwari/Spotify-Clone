@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.login-bg-container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('https://res.cloudinary.com/dlpf8fdvi/image/upload/v1723809836/login_background_image_hgifw2.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  width: 456px;
+  height: 433px;
+  border-radius: 12px 12px 12px 12px;
+  background: #181818;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.spotify-vector-image {
+  width: 144.03px;
+  height: 59.75px;
+  margin-bottom: 20px;
+}
+
+.spotify-heading {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+}
+
+.login-user-form-container {
+  width: 408px;
+  height: 206px;
+}
+
+.username-heading {
+  width: 72px;
+  height: 16px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: left;
+  color: #ffffff;
+}
+
+.input-field {
+  width: 408px;
+  height: 52px;
+  border-radius: 4px 4px 4px 4px;
+  border: 1px 1px 1px 1px;
+  background: #d9d9d9;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.label-input-container {
+  margin-top: 10px;
+}
+
+.login-button {
+  width: 408px;
+  height: 48px;
+  border-radius: 4px 4px 4px 4px;
+  background: #1db954;
+  color: #ffffff;
+  cursor: pointer;
+}
